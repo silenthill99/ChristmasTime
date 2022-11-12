@@ -16,6 +16,7 @@ public class Main
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.addListener(this::setup);
         bus.addListener(this::clientSetup);
+        ModItems.ITEMS.register(bus);
     }
 
     private void setup(FMLCommonSetupEvent event)
