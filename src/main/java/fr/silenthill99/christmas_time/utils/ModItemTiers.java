@@ -1,4 +1,4 @@
-package fr.silenthill99.christmas_time;
+package fr.silenthill99.christmas_time.utils;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;

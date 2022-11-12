@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures":
+  {
+    "down": "christmas_time:block/pain",
+    "up": "christmas_time:block/sucre",
+    "north": "christmas_time:block/paindepice",
+    "east": "christmas_time:block/paindepice",
+    "south": "christmas_time:block/paindepice",
+    "west": "christmas_time:block/paindepice",
+    "particle": "christmas_time:block/pain"
+  }
+}
