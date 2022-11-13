@@ -7,6 +7,6 @@ import net.minecraft.block.material.Material;
 public class ChristmasWreath extends Block
 {
     public ChristmasWreath() {
-        super(AbstractBlock.Properties.of(Material.DIRT));
+        super(AbstractBlock.Properties.of(Material.DIRT).noOcclusion());
     }
 }

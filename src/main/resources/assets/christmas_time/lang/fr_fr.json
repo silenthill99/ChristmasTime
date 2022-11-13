@@ -6,5 +6,6 @@
   "item.christmas_time.barley_hoe": "Houe en sucre d'orge",
   "item.christmas_time.barley_pickaxe": "Pioche en sucre d'orge",
   "item.christmas_time.barley_shovel": "Pelle en ,sucre d'orge",
-  "item.christmas_time.barley_sword": "Epée en sucre d'orge"
+  "item.christmas_time.barley_sword": "Epée en sucre d'orge",
+  "itemGroup.christmas_time": "Christmas Time"
 }

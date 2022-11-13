@@ -1,6 +1,7 @@
 package fr.silenthill99.christmas_time.init;
 
 import fr.silenthill99.christmas_time.Main;
+import fr.silenthill99.christmas_time.utils.ModItemGroups;
 import fr.silenthill99.christmas_time.utils.ModItemTiers;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
@@ -22,5 +23,5 @@ public class ModItems
 
     //Items de blocs
     public static final RegistryObject<Item> GINGERBREAD_SUGAR = ITEMS.register("gingerbread_sugar", () -> new BlockItem(ModBlocks.GINGERBREAD_SUGAR.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<Item> CHRISTMAS_WREATH = ITEMS.register("christmas_wreath", () -> new BlockItem(ModBlocks.CHRISTMAS_WREATH.get(), new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+    public static final RegistryObject<Item> CHRISTMAS_WREATH = ITEMS.register("christmas_wreath", () -> new BlockItem(ModBlocks.CHRISTMAS_WREATH.get(), new Item.Properties().tab(ModItemGroups.NOEL)));
 }
