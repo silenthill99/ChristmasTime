@@ -26,10 +26,10 @@ public class Main
 
     private void setup(FMLCommonSetupEvent event)
     {
+        RenderTypeLookup.setRenderLayer(ModBlocks.CHRISTMAS_WREATH.get(), RenderType.cutout());
     }
 
     private void clientSetup(FMLClientSetupEvent event)
     {
-        RenderTypeLookup.setRenderLayer(ModBlocks.CHRISTMAS_WREATH.get(), RenderType.cutout());
     }
 }
