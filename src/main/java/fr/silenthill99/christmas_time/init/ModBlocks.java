@@ -1,6 +1,7 @@
 package fr.silenthill99.christmas_time.init;
 
 import fr.silenthill99.christmas_time.Main;
+import fr.silenthill99.christmas_time.init.blocks.ChristmasWreath;
 import fr.silenthill99.christmas_time.init.blocks.GingerbreadSugar;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.RegistryObject;
@@ -14,6 +15,7 @@ public class ModBlocks
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Main.MODID);
 
     public static final RegistryObject<Block> GINGERBREAD_SUGAR = createBlock("gingerbread_sugar", GingerbreadSugar::new);
+    public static final RegistryObject<Block> CHRISTMAS_WREATH = createBlock("christmas_wreath", ChristmasWreath::new);
 
     private static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier)
     {
